@@ -1,9 +1,0 @@
-#Given a array,find all the pairs whose sum equal to given K
-import itertools
-lst=[1, 5, 7, 8, 2, 0]
-k=7
-res_list = [i for i in sorted_list if i <= k]
-
-for n in itertools.combinations(res_list, 2):
-    if n[0] + n[1] == k:
-        print (str(n[0]) + " , " + str(n[1]))
